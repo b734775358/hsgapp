@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/add",
+    "pages/index/offer"
+  ],
+  "subPackages": [],
+  "window": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

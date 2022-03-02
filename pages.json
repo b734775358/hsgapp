@@ -1,0 +1,184 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/saleOrder/orderList/index",
+			"style": {
+				"navigationBarTitleText": "销售订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50 // 上拉触底的单位，单位为px
+			}
+		},
+		{
+			"path": "pages/saleOrder/createOrder/index",
+			"style": {
+				"navigationBarTitleText": "新建销售订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/saleOrder/quotationNo/index",
+			"style": {
+				"navigationBarTitleText": "报价单号",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50 // 上拉触底的单位，单位为px
+			}
+		},
+		{
+			"path": "pages/saleOrder/businessManager/list",
+			"style": {
+				"navigationBarTitleText": "业务员",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50 // 上拉触底的单位，单位为px
+			}
+		},
+		{
+			"path": "pages/saleOrder/parts/list",
+			"style": {
+				"navigationBarTitleText": "配件",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/contract/salesSupplementaryAgreement/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/add",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/offer",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/index/product",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/index/product_detail",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/index/accessories",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/index/discount",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/index/gross",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/pop/customer",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/pop/business",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/pop/quotation",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/pop/principal",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/pop/standard",
+			"style": {
+				"navigationBarTitleText": ""
+			} 
+		},
+		{
+			"path": "pages/saleOrder/orderList/index",
+			"style": {
+				"navigationBarTitleText": "销售订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50 // 上拉触底的单位，单位为px
+			}
+		},
+		{
+			"path": "pages/saleOrder/createOrder/index",
+			"style": {
+				"navigationBarTitleText": "新建销售订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/saleOrder/businessManager/list",
+			"style": {
+				"navigationBarTitleText": "业务员",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/saleOrder/parts/list",
+			"style": {
+				"navigationBarTitleText": "配件",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/contract/salesSupplementaryAgreement/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/contract/index/index",
+			"style": {
+				"navigationBarTitleText": "对外发文",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50 // 上拉触底的单位，单位为px
+			}
+		}
+	],
+	"globalStyle": {
+		"app-plus": {
+			"background": "#efeff4",
+			"titleNView": false,
+			"animationType": "slide-in-bottom"
+		}
+	}
+}
